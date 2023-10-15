@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    |<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/index.css">
+    <title>Nuevo registro</title>
+</head>
+<body>
+    <div class="grid">
+        <header class="cabecera">
+            <div class="logo">
+                <img src="./imagenes/logo_quipux.PNG" alt="QUIPUX">
+            </div>
+            <div class="info_usuario">
+                <p>Jonnier Grajales Alzate</p>
+                <img src="./imagenes/icono_usuario.PNG" alt="IconoUsuario">
+            </div>
+        </header>
+        <nav class="nav">
+            <ul class="lista">
+                <li><a href="#">Estudiantes</a></li>
+                <li><a href="#">Grupos</a></li>
+                <li class="activa"><a href="./index.html">Materias</a></li>
+                <li><a href="#">Evaluaciones</a></li>
+                <li><a href="#">Informes</a></li>
+            </ul>
+        </nav>
+        <div class="grid2">
+            <div class="parrafos">
+                <p class="blue">Administración de materias  /</p>
+                <p class="normal">Materia</p>
+            </div>
+
+            <div class="formulario2">
+                <p>Información de la materia </p>
+                 <form class="form2">
+        <div class="campo">
+            <label for="materia">Materia</label>
+            <select class="mediano" id="materia" name="materia" required>
+                <option value="#">Seleccionar</option>
+                <option value="#">Matemáticas</option>
+                <option value="#">Estadística</option>
+                <option value="#">Español</option>
+                <option value="#">Historia</option>
+                <option value="#">Sociales</option>
+                <option value="#">Tecnología</option>
+                <option value="#">Ciencias</option>
+                <option value="#">Programación</option>
+            </select>
+        </div>
+        <div class="campo">
+            <label for="profesor">Profesor</label>
+            <select class="mediano" id="materia" name="materia" required>
+                <option value="#">Seleccionar</option>
+                <option value="#">Fabio León Restrepo</option>
+                <option value="#">Jaime Alberto Giraldo</option>
+                <option value="#">Adriana María Zuluaga</option>
+                <option value="#">Fabiola Ramírez</option>
+                <option value="#">María Dolores Smicth</option>
+            </select>
+        </div>
+        <div class="campo">
+            <label for="grado">Grado(s)</label>
+            <select class="pequeno" id="grado" name="grado" required>
+                <option value="#"></option>
+                <option value="#">6</option>
+                <option value="#">7</option>
+                <option value="#">8</option>
+                <option value="#">9</option>
+                <option value="#">10</option>
+                <option value="#">11</option>
+            </select>
+        </div>
+    </form>
+        </div>
+        <div class="resultados2">
+            <p class="blue">Estudiantes</p>
+            <form class="form3">
+                <div class="campo">
+                    <label for="grado">Estudiante</label>
+                    <select class="mediano" id="grado" name="grado" required>
+                        <option value="#"></option>
+                        <option value="#">Camila Fernández Rojas</option>
+                        <option value="#">Juan Felipe Montoya Ríos</option>
+                        <option value="#">Luisa María Cruz Hernández</option>
+                        <option value="#">Ana María Bedoya López</option>
+                        <option value="#">Santiago Sánchez Rivera</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="grupo">Código estudiante</label>
+                    <select class="mediano" id="grupo" name="grupo" required>
+                        <option value="#"></option>
+                        <option value="#">2022101</option>
+                        <option value="#">2022102</option>
+                        <option value="#">2022103</option>
+                        <option value="#">2022104</option>
+                        <option value="#">2022105</option>
+                    </select>
+                </div>
+        
+                <a href="#"><input class="btn-primario" type="reset" value="Buscar"></a>
+                <a class="limpiar" href="./index.html">Limpiar filtros</a>
+            </form>
+            <table class="tabla2">
+                <tr>
+                  <th>Código</th>
+                  <th>Estudiante</th>
+                  <th>Grado</th>
+                  <th>Grupo</th>
+                  <th>Estado</th>
+                  <th>Nota promedio</th>
+                </tr>
+                <tr>
+                  <td>2022101</td>
+                  <td>Camila Fernández Rojas</td>
+                  <td>10</td>
+                  <td>A</td>
+                  <td><select class="f3" id="grado" name="grado" required>
+                    <option value="#">En curso</option>
+                    <option value="#">Inactivo</option>
+                </select></td>
+                <td>
+                    <input type="text">
+                </td>
+                </tr>
+                <tr>
+                    <td>2022102</td>
+                    <td>Juan Felipe Montoya Ríos</td>
+                    <td>9</td>
+                    <td>C</td>
+                    <td><select class="f3" id="grado" name="grado" required>
+                        <option value="#">En curso</option>
+                        <option value="#">Inactivo</option>
+                    </select></td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                  <td>2022103</td>
+                  <td>Luisa María Cruz Hernández</td>
+                  <td>9</td>
+                  <td>B</td>
+                  <td><select class="f3" id="grado" name="grado" required>
+                    <option value="#">En curso</option>
+                    <option value="#">Inactivo</option>
+                </select></td>
+                <td>
+                    <input type="text">
+                </td>
+                </tr>
+                <tr>
+                  <td>2022104</td>
+                  <td>Ana María Bedoya López</td>
+                  <td>8</td>
+                  <td>B</td>
+                  <td><select class="f3" id="grado" name="grado" required>
+                    <option value="#">En curso</option>
+                    <option value="#">Inactivo</option>
+                </select></td>
+                <td>
+                    <input type="text">
+                </td>
+                </tr>
+                <tr>
+                  <td>2022105</td>
+                  <td>Santiago Sánchez Rivera</td>
+                  <td>7</td>
+                  <td>A</td>
+                  <td><select class="f3" id="grado" name="grado" required>
+                    <option value="#">En curso</option>
+                    <option value="#">Inactivo</option>
+                </select></td>
+                <td>
+                    <input type="text">
+                </td>
+                </tr>
+                
+                
+              </table>
+        </div>
+        
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <div class="usuario_info">
+                <img src="./imagenes/icono_usuario.PNG" alt="IconoUsuario">
+                <p>Estudiante</p>
+                <p>Jonnier Grajales Alzate</p>
+                <p>TI: 1025647244</p>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
